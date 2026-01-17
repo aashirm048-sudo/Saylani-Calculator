@@ -1,0 +1,73 @@
+
+body {
+    background-image: url(https://thewowstyle.com/wp-content/uploads/2015/01/nature-images.jpg);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+.container {
+    background:rgb(10, 143, 10);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+
+#screen {
+    width: 240px;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 15px;
+    border: none;
+    padding: 0 10px;
+    background: #ffffff;
+    color: black;
+}
+    
+
+button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #1e90ff;
+    color: #fff;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #63b3ed;
+}
+
+.btn1 {
+    background:brown;
+}
+
+.btn1:hover {
+    background:brown;
+}
+
+.row {
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 400px) {
+    #screen {
+        height: 45px;
+        font-size: 20px;
+    }
+    button {
+        width: 22%; 
+        height: 45px;
+        font-size: 18px;
+    }
+}
